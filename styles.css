@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #24d4bf;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+#menu {
+    width: 100%;
+}
+
+.menu-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas */
+    gap: 20px; /* Espaço entre os pratos */
+}
+
+.dish {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.dish img {
+    width: 100%;
+    height: auto; /* Mantém a proporção original */
+    max-height: 200px; /* Define a altura máxima para a imagem */
+    object-fit: cover; /* Mantém a imagem proporcional */
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #24d4bf;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Espaço acima do botão */
+}
+
+button:hover {
+    background-color: #24d4bf;
+}
+
+footer {
+    background-color: #24d4bf;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

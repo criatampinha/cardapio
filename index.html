@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cardápio</h1>
+    </header>
+    <main>
+        <section id="menu">
+            <div class="menu-container">
+                <!-- Cada prato deve estar dentro de um item de prato -->
+                <div class="dish" id="dish1">
+                    <h2>Prato 1: Café</h2>
+                    <img src="cafe.jfif" alt="Café">
+                    <p>Delicioso para qualquer hora do dia, café fresquinho.</p>
+                    <button onclick="readDescription('dish1')">Ouvir descrição</button>
+                </div>
+                <div class="dish" id="dish2">
+                    <h2>Prato 2: Capuccino</h2>
+                    <img src="capuccino.jfif" alt="Capuccino">
+                    <p>Delicioso para começar o dia com um capuccino.</p>
+                    <button onclick="readDescription('dish2')">Ouvir descrição</button>
+                </div>
+                <div class="dish" id="dish3">
+                    <h2>Prato 3: Pão de queijo</h2>
+                    <img src="paodequeijo.jfif" alt="Pão de queijo">
+                    <p>Um delicioso pão de queijo.</p>
+                    <button onclick="readDescription('dish3')">Ouvir descrição</button>
+                </div>
+                <div class="dish" id="dish4">
+                    <h2>Prato 4: Pão na chapa</h2>
+                    <img src="paonachapa.jfif" alt="Pão na chapa">
+                    <p>Um delicioso pão na chapa para acompanhar o café.</p>
+                    <button onclick="readDescription('dish4')">Ouvir descrição</button>
+                </div>
+                <div class="dish" id="dish5">
+                    <h2>Prato 5: Bolo de chocolate</h2>
+                    <img src="bolodechoco.jfif" alt="Bolo de chocolate">
+                    <p>Um delicioso bolo de chocolate.</p>
+                    <button onclick="readDescription('dish5')">Ouvir descrição</button>
+                </div>
+                <div class="dish" id="dish6">
+                    <h2>Prato 6: Bolo de cenoura</h2>
+                    <img src="bolodecenoura.jfif" alt="Bolo de cenoura">
+                    <p>Um delicioso bolo de cenoura para acompanhar o café.</p>
+                    <button onclick="readDescription('dish6')">Ouvir descrição</button>
+                </div>
+                <div class="dish" id="dish7">
+                    <h2>Prato 7: Biscoito</h2>
+                    <img src="biscoito.jfif" alt="Biscoito">
+                    <p>Um delicioso biscoito para acompanhar o café.</p>
+                    <button onclick="readDescription('dish7')">Ouvir descrição</button>
+                </div>
+                <div class="dish" id="dish8">
+                    <h2>Prato 8: Empada</h2>
+                    <img src="empada.jfif" alt="Empada">
+                    <p>Uma deliciosa empada.</p>
+                    <button onclick="readDescription('dish8')">Ouvir descrição</button>
+                </div>
+                <div class="dish" id="dish9">
+                    <h2>Prato 9: Coxinha</h2>
+                    <img src="coxinha.jfif" alt="Coxinha">
+                    <p>Uma deliciosa coxinha para qualquer hora do dia.</p>
+                    <button onclick="readDescription('dish9')">Ouvir descrição</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Seu Restaurante. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
